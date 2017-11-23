@@ -20,6 +20,10 @@ public class ExpandCollapseController {
     this.listener = listener;
   }
 
+  public void refresh(ExpandableList expandableList){
+    this.expandableList = expandableList;
+  }
+
   /**
    * Collapse a group
    *
